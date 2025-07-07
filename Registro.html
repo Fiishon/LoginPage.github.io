@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/Estilo.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Registrarse</h2>
+        <input type="text" id="nvnombre" placeholder="Nombre(s)">
+        <small id="error-nombre" class="error"></small>
+        <input type="text" id="nvapellidoP" placeholder="Apellido Paterno">
+        <small id="error-apellidoP" class="error"></small>
+        <input type="text" id="nvapellidoM" placeholder="Apellido Materno">
+        <small id="error-apellidoM" class="error"></small>
+        <input type="text" id="nvusuario" placeholder="Nombre de Usuario">
+        <input type="email" id="correo" placeholder="Correo electrónico">
+        <small id="error-correo" class="error"></small>
+        <input type="password" id="contrasena" placeholder="Contraseña">
+        <small id="error-contraseña" class="error"></small>
+        <a href="Iniciar.html">¿Ya tienes una cuenta?</a>
+        <button onclick="registrar()" id="boton1">Registrarse</button>
+        <p id="mensaje"></p>
+    </div>
+    <script src="js/Registro.js"></script>
+</body>
+</html>
