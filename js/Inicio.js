@@ -41,7 +41,7 @@ function iniciarSesion() {
     mensaje.style.color = "green";
     mensaje.textContent = "¡Ingreso exitoso!";
     setTimeout(() => {
-      window.location.href = "http://localhost/prograweb/boostrapTarea.html";
+      window.location.href = "boostrapTarea.html";
     }, 1000);
   } else {
     mostrarError("error-contraseña", "Correo o contraseña inválidos");
