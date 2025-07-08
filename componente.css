@@ -1,0 +1,24 @@
+#btnws {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: grab;
+    transition: background-color 0.3s transform 0.2s;
+    width: 60px;
+    height: 60px;
+}
+
+#btnws:hover {
+    background-color: #1ebe57;
+    transform: scale(1.1);
+}
+
+#btnws img {
+    width: 32px;
+    height: 32px;
+}

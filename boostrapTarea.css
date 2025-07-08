@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(#000000, #004c7a) ;
+    min-height: 100vh;
+}
+
+.blanco {
+    color: white;
+}
+
+.negro {
+    color: black;
+}
