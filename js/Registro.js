@@ -99,7 +99,7 @@ function registrar() {
   mensaje.textContent = "¡Registro exitoso!";
 
   setTimeout(() => {
-    window.location.href = "Iniciar.html";
+    window.location.href = "index.html";
   }, 1500);
 }
 
